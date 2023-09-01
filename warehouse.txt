@@ -1,0 +1,43 @@
+Code: A
+Agreement of the owner: (3, 4, 6)
+Predecessor tasks: StartCDE
+
+Code: B
+Preparation of the ground: (1, 2, 4)
+Predecessor tasks: StartD
+
+Code: C
+Order of materials: (1, 1, 3)
+Predecessor tasks: AF
+
+Code: D
+Excavation: (1, 1, 3)
+Predecessor tasks: A BG
+
+Code: E
+Order of doors and windows: (1, 2, 4)
+Predecessor tasks: AH
+
+Code: F
+Delivery of materials: (1,2,4)
+Predecessor tasks: CG
+
+Code: G
+Concrete foundations: (1,2,4)
+Predecessor tasks: D FJ
+
+Code: H
+Delivery of doors and windows: (8, 10, 12)
+Predecessor tasks: EK
+
+Code: J
+Frame, roofs, walls: (3, 4, 6)
+Predecessor tasks: GK
+
+Code: K
+Installation of doors and windows: (1, 1, 3)
+Predecessor tasks: H JEnd
+
+Code: End
+Predecessor tasks: K
+

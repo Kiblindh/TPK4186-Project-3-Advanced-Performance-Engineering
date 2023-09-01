@@ -1,0 +1,247 @@
+Code: A.1
+Building Design: (6, 12, 18)
+Predecessor tasks: StartA.2A.3A.4
+
+Code: A.2
+Electrical Design: (3, 6, 9)
+Predecessor tasks: A.1B.1
+
+Code: A.3
+Plumbing Design: (3, 6, 9)
+Predecessor tasks: A.1B.1
+
+Code: A.4
+Fire System Design: (2, 4, 6)
+Predecessor tasks: A.1B.1
+
+Code: B.1
+Signing Project Contract: (2, 4, 6)
+Predecessor tasks: A.2 A.3 A.4B.2B.3B.4
+
+Code: B.2
+Project Permit: (3, 6, 9)
+Predecessor tasks: B.1C.1
+
+Code: B.3
+Electrical Permit: (4, 8, 12)
+Predecessor tasks: B.1C.1
+
+Code: B.4
+Plumbing Permit: (3, 6, 9)
+Predecessor tasks: B.1C.1
+
+Code: C.1
+Installation of Mobilization Building: (4, 8, 12)
+Predecessor tasks: B.2 B.3 B.4C.2C.3
+
+Code: C.2
+Road Work: (3, 6, 9)
+Predecessor tasks: C.1D.1
+
+Code: C.3
+Fence Work: (2, 4, 6)
+Predecessor tasks: C.1D.1
+
+Code: D.1
+Clearing and Grubbing: (2, 4, 6)
+Predecessor tasks: C.2 C.3D.2
+
+Code: D.2
+Excavation: (6, 12, 18)
+Predecessor tasks: D.1D.3
+
+Code: D.3
+Filling: (10, 20, 30)
+Predecessor tasks: D.2E.1
+
+Code: E.1
+Pile: (9, 18, 27)
+Predecessor tasks: D.3E.2E.3
+
+Code: E.2
+Concrete: (10, 20, 30)
+Predecessor tasks: E.1F.1
+
+Code: E.3
+Raft Foundation: (15, 30, 45)
+Predecessor tasks: E.1F.1
+
+Code: F.1
+Column and Curtain Wall: (8, 16, 24)
+Predecessor tasks: E.2 E.3F.2F.3F.4F.5
+
+Code: F.2
+Slab: (3, 6, 9)
+Predecessor tasks: F.1G.1
+
+Code: F.3
+Slab Insulation: (6, 12, 18)
+Predecessor tasks: F.1G.1
+
+Code: F.4
+Masonry: (3, 6, 9)
+Predecessor tasks: F.1G.1
+
+Code: F.5
+Upper Slab: (2, 4, 6)
+Predecessor tasks: F.1G.1
+
+Code: G.1
+Column and Curtain Wall: (4, 8, 12)
+Predecessor tasks: F.2 F.3 F.4 F.5G.2G.3G.4G.5
+
+Code: G.2
+Slab: (4, 8, 12)
+Predecessor tasks: G.1H.1
+
+Code: G.3
+Slab Insulation: (3, 6, 9)
+Predecessor tasks: G.1H.1
+
+Code: G.4
+Masonry: (2, 4, 6)
+Predecessor tasks: G.1H.1
+
+Code: G.5
+Upper Slab: (2, 4, 6)
+Predecessor tasks: G.1H.1
+
+Code: H.1
+Roof Beam Installation: (4, 8, 12)
+Predecessor tasks: G.2 G.3 G.4 G.5H.2H.3
+
+Code: H.2
+Roof Installation: (4, 8, 12)
+Predecessor tasks: H.1I.1I.2I.3
+
+Code: H.3
+Roof Isolation: (2, 4, 6)
+Predecessor tasks: H.1I.1I.2I.3
+
+Code: I.1
+Installation of Electric: (6, 12, 18)
+Predecessor tasks: H.2 H.3J.2J.3
+
+Code: I.2
+Installation of Plumbing: (4, 8, 12)
+Predecessor tasks: H.2 H.3J.2J.3
+
+Code: I.3
+Installation of Fire System: (2, 4, 6)
+Predecessor tasks: H.2 H.3J.2J.3
+
+Code: J.2
+Interior Brick Wall: (16, 32, 48)
+Predecessor tasks: I.1 I.2 I.3J.1
+
+Code: J.3
+Exterior Brick Wall: (14, 28, 42)
+Predecessor tasks: I.1 I.2 I.3J.1
+
+Code: J.1
+Drywall: (9, 18, 27)
+Predecessor tasks: J.2 J.3K.1
+
+Code: K.1
+Plaster (ext-int): (9, 18, 27)
+Predecessor tasks: J.1L.1L.2L.3L.4L.5L.6L.7
+
+Code: L.1
+Travertine Coating: (14, 28, 42)
+Predecessor tasks: K.1M.1
+
+Code: L.2
+Marble Coating: (8, 16, 24)
+Predecessor tasks: K.1M.1
+
+Code: L.3
+Tile Mosaic Coating: (4, 8, 12)
+Predecessor tasks: K.1M.1
+
+Code: L.4
+Ceramic Coating: (2, 4, 6)
+Predecessor tasks: K.1M.1
+
+Code: L.5
+Epoxy: (2, 4, 6)
+Predecessor tasks: K.1M.1
+
+Code: L.6
+Suspended Ceiling Cover: (8, 16, 24)
+Predecessor tasks: K.1M.1
+
+Code: L.7
+Outer Wall Covering: (12, 24, 36)
+Predecessor tasks: K.1M.1
+
+Code: M.1
+Fenestration Installation: (3, 6, 9)
+Predecessor tasks: L.1 L.2 L.3 L.4 L.5 L.6 L.7M.2M.3M.4
+
+Code: M.2
+Wood Work: (6, 12, 18)
+Predecessor tasks: M.1N.1
+
+Code: M.3
+Aluminium Joinery: (4, 8, 12)
+Predecessor tasks: M.1N.1
+
+Code: M.4
+Metal Joinery: (3, 6, 9)
+Predecessor tasks: M.1N.1
+
+Code: N.1
+Interior Paint: (4, 8, 12)
+Predecessor tasks: M.2 M.3 M.4N.2
+
+Code: N.2
+Exterior Paint: (9, 18, 27)
+Predecessor tasks: N.1O.1O.2O.3
+
+Code: O.1
+Ventilation System: (2, 4, 6)
+Predecessor tasks: N.2O.4O.5
+
+Code: O.2
+Clean-Waste Water: (6, 12, 18)
+Predecessor tasks: N.2O.4O.5
+
+Code: O.3
+Rain Water: (2, 4, 6)
+Predecessor tasks: N.2O.4O.5
+
+Code: O.4
+Mechanical Automation: (2, 4, 6)
+Predecessor tasks: O.1 O.2 O.3P.1P.2P.3
+
+Code: O.5
+Mechanical Electric Work: (2, 4, 6)
+Predecessor tasks: O.1 O.2 O.3P.1P.2P.3
+
+Code: P.1
+Fire Protection System: (2, 4, 6)
+Predecessor tasks: O.4 O.5Q.1
+
+Code: P.2
+Fire Detection System: (3, 6, 9)
+Predecessor tasks: O.4 O.5Q.1
+
+Code: P.3
+Security Lighting: (2, 4, 6)
+Predecessor tasks: O.4 O.5Q.1
+
+Code: Q.1
+Cleaning: (2, 4, 6)
+Predecessor tasks: P.1 P.2 P.3Q.2
+
+Code: Q.2
+Final Control: (2, 4, 6)
+Predecessor tasks: Q.1Q.3
+
+Code: Q.3
+Delivery: (1,1,1)
+Predecessor tasks: Q.2Completion
+
+Code: Completion
+Predecessor tasks: Q.3
+
